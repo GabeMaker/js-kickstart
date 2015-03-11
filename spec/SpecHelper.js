@@ -1,15 +1,17 @@
-beforeEach(function () {
-  jasmine.addMatchers({
-    toBePlaying: function () {
-      return {
-        compare: function (actual, expected) {
-          var player = actual;
+// from jasmine standalone 2.2.0
 
-          return {
-            pass: player.currentlyPlayingSong === expected && player.isPlaying
-          }
-        }
-      };
-    }
-  });
-});
+// beforeEach(function () {
+//   jasmine.addMatchers({
+//     toBePlaying: function () {
+//       return {
+//         compare: function (actual, expected) {
+//           var player = actual;
+
+//           return {
+//             pass: player.currentlyPlayingSong === expected && player.isPlaying
+//           }
+//         }
+//       };
+//     }
+//   });
+// });
