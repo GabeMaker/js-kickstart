@@ -8,21 +8,14 @@ describe("Testing jasmine setup", function() {
     it("returns 20 less than input multiplied by 5", function() {
       expect(arithmetic1(10)).toBe(30);
     });
+
+    it("returns 32.5 when input is 10.5", function() {
+      expect(arithmetic1(10.5)).toEqual(32.5);
+    });
+
+    it("returns -50 when input is -6", function() {
+      expect(arithmetic1(-6)).toEqual(-50);
+    });
   });
 
 });
-
-
-// # fill out the method below
-// # then test tho see if you did them correctly with
-// #  $ rake 1:1
-
-// # Given a number, return 20 less than, that number multiplied by 5
-// #
-// # arithmetic1(10)     # => 30
-// # arithmeitc1(10.5)   # => 32.5
-// # arithmeitc1(-6)     # => -50
-
-// def arithmetic1(n)
-//   # the code for this method goes in here
-// end

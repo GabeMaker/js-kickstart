@@ -1,3 +1,3 @@
 var arithmetic1 = function(n) {
-  return 30;
+  return n * 5 - 20;
 };
