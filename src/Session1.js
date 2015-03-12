@@ -17,3 +17,13 @@ var ten_twenty = function (n) {
   }
   return result;
 };
+
+var grade = function (books) {
+  var grade = "D";
+  if (books > 20) {
+    grade = "B";
+  } else if (books >= 10) {
+    grade = "C";
+  }
+  return grade;
+};
